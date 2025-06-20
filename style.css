@@ -1,0 +1,28 @@
+@import url("css/header.css");
+@import url("css/imagem.css");
+@import url("css/categorias.css");
+@import url("css/pacotes.css");
+@import url("css/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --verde-fundo: #e8f2e3;
+    --branco: #F5F5F5;
+    --cinza-verde: #a3c48f;
+    --titulo: #131313;
+    --texto: #080808;
+    --azul: rgb(50, 106, 204);
+    --azul-escuro: #02233a;
+    --azul-claro: #6cd8e0;
+    --azul-10: rgba(53, 110, 209, 0.376);
+
+    --font-texto: "Source Sans 3", sans-serif;;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--verde-fundo);
+    font-family: var(--font-texto);
+}
