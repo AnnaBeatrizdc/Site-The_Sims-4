@@ -30,6 +30,7 @@
     user-select: none;
     font-family: var(--font-texto);
     font-size: 14px;
+    color: var(--titulo);
 }
 
 .lista-btn:hover {
